@@ -1,0 +1,13 @@
+@import "src/styles/mixins/mixins";
+
+.container {
+  @include center-content-inside;
+  width: 178px;
+  height: 62px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+.container:hover {
+  cursor: pointer;
+}

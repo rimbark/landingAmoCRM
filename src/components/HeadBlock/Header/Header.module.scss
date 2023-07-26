@@ -1,0 +1,17 @@
+@import "src/styles/mixins/mixins";
+
+.container {
+  width: 1320px;
+  height: 62px;
+  margin-left: 60px;
+  @include row-direction-justify;
+  align-items: center;
+  margin-bottom: 209px;
+}
+
+.rightBlock {
+  @include row-direction-justify;
+  align-items: center;
+  width: 250px;
+  height: 62px;
+}

@@ -1,0 +1,23 @@
+.container {
+  width: 168px;
+  height: 202px;
+
+  h6 {
+    font-size: var(--normal-font-size);
+    color: #ffffff;
+    font-weight: 400;
+    margin-bottom: 23px;
+  }
+}
+
+.list {
+  list-style-type: none;
+  color: var(--font-color-grey);
+  font-size: 15px;
+  line-height: 37.5px;
+
+  li:hover {
+    cursor: pointer;
+    color: var(--font-color-gold);
+  }
+}

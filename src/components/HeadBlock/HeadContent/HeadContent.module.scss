@@ -1,0 +1,52 @@
+@import "src/styles/mixins/mixins";
+
+.container {
+  width: 1320px;
+  height: 528px;
+  @include row-direction-justify;
+}
+
+.content {
+  height: 100%;
+  color: #ffffff;
+  @include container-position-center;
+  justify-content: space-between;
+}
+
+.heading {
+  position: relative;
+  font-size: var(--big-font-size);
+  margin-bottom: 45px;
+
+  img {
+    position: absolute;
+    right: 10px;
+    bottom: 80px;
+  }
+}
+
+.text {
+  width: 100%;
+  margin-bottom: 53px;
+  font-size: var(--normal-font-size);
+  color: var(--font-color-grey);
+}
+
+.links {
+  width: 100%;
+  font-size: var(--normal-font-size);
+
+  @include row-direction-justify;
+  align-items: center;
+  justify-content: left;
+  gap: 40px;
+
+  a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  a:hover {
+    color: var(--font-color-gold);
+  }
+}

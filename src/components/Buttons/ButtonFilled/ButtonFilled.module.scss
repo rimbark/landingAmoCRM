@@ -1,0 +1,14 @@
+@import "src/styles/mixins/mixins";
+
+.container {
+  width: 203px;
+  height: 70px;
+  @include center-content-inside;
+  font-size: var(--normal-font-size);
+  background-color: var(--main-color);
+  color: #ffffff;
+}
+
+.container:hover {
+  cursor: pointer;
+}

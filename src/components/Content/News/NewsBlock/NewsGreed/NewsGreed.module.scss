@@ -1,0 +1,35 @@
+.container {
+  display: grid;
+  grid-template-areas:
+    "main news2 news3"
+    "main news4 news5";
+  row-gap: 40px;
+  column-gap: 24px;
+
+  img {
+    margin-bottom: 30px;
+  }
+}
+
+.mainNews {
+  grid-area: main;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.news2 {
+  grid-area: news2;
+}
+
+.news3 {
+  grid-area: news3;
+}
+
+.news4 {
+  grid-area: news4;
+}
+
+.news5 {
+  grid-area: news5;
+}

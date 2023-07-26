@@ -1,0 +1,10 @@
+@import "variables/global";
+@import "reset";
+@import 'mixins/mixins.scss';
+@import 'fonts.scss';
+
+
+body {
+  @include container-position-center;
+  @include font-general-settings;
+}

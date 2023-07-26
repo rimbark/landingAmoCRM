@@ -1,0 +1,27 @@
+@import "src/styles/mixins/mixins";
+
+.container {
+  width: 100%;
+  height: 1222px;
+  padding-top: 130px;
+  background-color: var(--black-background);
+  @include container-position-center;
+}
+
+.content {
+  width: 1320px;
+}
+
+.heading {
+  width: 100%;
+  height: 196px;
+  @include row-direction-justify;
+  align-items: end;
+  margin-bottom: 64px;
+}
+
+.header {
+  width: 652px;
+  color: #ffffff;
+  font-size: var(--medium-font-size);
+}

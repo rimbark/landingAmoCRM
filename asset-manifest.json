@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/rimbark.github.io/landingAmoCRM/static/css/main.967b0621.css",
+    "main.js": "/rimbark.github.io/landingAmoCRM/static/js/main.934670b5.js",
+    "static/media/mainBlock-character.png": "/rimbark.github.io/landingAmoCRM/static/media/mainBlock-character.9a34c64b8e6f54d8478f.png",
+    "static/media/header-character.png": "/rimbark.github.io/landingAmoCRM/static/media/header-character.6b8283756edea01a3d28.png",
+    "static/media/joystick.png": "/rimbark.github.io/landingAmoCRM/static/media/joystick.a0ca714ea117eded6322.png",
+    "static/media/players.png": "/rimbark.github.io/landingAmoCRM/static/media/players.2d7e44f02f6359f1c3d9.png",
+    "static/media/headphones.png": "/rimbark.github.io/landingAmoCRM/static/media/headphones.c40200bdbaac562cc235.png",
+    "static/media/keyboard.png": "/rimbark.github.io/landingAmoCRM/static/media/keyboard.14167f286ffcc3327301.png",
+    "static/media/galleryImag-1.png": "/rimbark.github.io/landingAmoCRM/static/media/galleryImag-1.32de84116909e86ddd18.png",
+    "static/media/galleryImage-2.png": "/rimbark.github.io/landingAmoCRM/static/media/galleryImage-2.27f26bec669a40af5cec.png",
+    "static/media/systemBlock.png": "/rimbark.github.io/landingAmoCRM/static/media/systemBlock.0fd4ececee45f08bc1d3.png",
+    "static/media/galleryImage-3.png": "/rimbark.github.io/landingAmoCRM/static/media/galleryImage-3.399dab373943005a4a47.png",
+    "static/media/Orbitron-Regular.ttf": "/rimbark.github.io/landingAmoCRM/static/media/Orbitron-Regular.1f498717ba081693370a.ttf",
+    "index.html": "/rimbark.github.io/landingAmoCRM/index.html",
+    "main.967b0621.css.map": "/rimbark.github.io/landingAmoCRM/static/css/main.967b0621.css.map",
+    "main.934670b5.js.map": "/rimbark.github.io/landingAmoCRM/static/js/main.934670b5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.967b0621.css",
+    "static/js/main.934670b5.js"
+  ]
+}

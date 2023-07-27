@@ -4,19 +4,23 @@
   width: 535px;
   height: 26px;
 
-  font-size: var(-small-font-size);
-  color: #fff;
-
   list-style-type: none;
-  @include row-direction-justify;
+
+  color: #FFF;
+
+  font-size: var(-small-font-size);
 
   li {
     text-decoration: none;
-    color: #fff;
+
+    color: #FFF;
   }
 
   li:hover {
     cursor: pointer;
+
     color: var(--font-color-gold);
   }
+
+  @include row-direction-justify;
 }

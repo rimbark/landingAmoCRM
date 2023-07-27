@@ -1,17 +1,21 @@
 @import "src/styles/mixins/mixins";
 
 .container {
+  align-items: center;
+
   width: 1320px;
   height: 62px;
-  margin-left: 60px;
-  @include row-direction-justify;
-  align-items: center;
   margin-bottom: 209px;
+  margin-left: 60px;
+
+  @include row-direction-justify;
 }
 
 .rightBlock {
-  @include row-direction-justify;
   align-items: center;
+
   width: 250px;
   height: 62px;
+
+  @include row-direction-justify;
 }

@@ -4,7 +4,9 @@
   width: 100%;
   height: 1222px;
   padding-top: 130px;
+
   background-color: var(--black-background);
+
   @include container-position-center;
 }
 
@@ -13,15 +15,19 @@
 }
 
 .heading {
+  align-items: end;
+
   width: 100%;
   height: 196px;
-  @include row-direction-justify;
-  align-items: end;
   margin-bottom: 64px;
+
+  @include row-direction-justify;
 }
 
 .header {
   width: 652px;
-  color: #ffffff;
+
+  color: #FFF;
+
   font-size: var(--medium-font-size);
 }

@@ -3,10 +3,13 @@
 .container {
   width: 203px;
   height: 70px;
-  @include center-content-inside;
-  font-size: var(--normal-font-size);
+
+  color: #FFF;
   background-color: var(--main-color);
-  color: #ffffff;
+
+  font-size: var(--normal-font-size);
+
+  @include center-content-inside;
 }
 
 .container:hover {

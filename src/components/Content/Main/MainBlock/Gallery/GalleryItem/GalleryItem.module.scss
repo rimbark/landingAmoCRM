@@ -1,15 +1,17 @@
 .container {
-  width: 174px;
-  height: 102px;
+	width: 174px;
+	height: 102px;
 
-  img {
-    box-sizing: border-box;
-    border-radius: 20px;
-    border: 11px solid transparent;
-    transition: border-color 0.3s ease;
-  }
+	img {
+		box-sizing: border-box;
 
-  img:hover {
-    border-color: #3b3d46;
-  }
+		transition: border-color 0.3s ease;
+
+		border: 11px solid transparent;
+		border-radius: 20px;
+	}
+
+	img:hover {
+		border-color: #3B3D46;
+	}
 }
